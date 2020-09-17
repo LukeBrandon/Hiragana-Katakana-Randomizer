@@ -19,8 +19,6 @@ values = [[["a", "あ ア"], ["i", "い イ"], ["u", "う ウ"], ["e", "え エ"
                             ["ba", "ば　バ"], ["bi", "び　ビ"], ["bu", "ぶ　ブ"], ["be", "べ　ベ"], ["bo", "ぼ　ボ"], 
                             ["pa", "ぱ　パ"], ["pi", "ぴ　ピ"], ["pu", "ぷ　プ"], ["pe", "ぺ　ペ"], ["po", "ぽ ポ"]]]
 
-# TODO: Change these to be organized by Lesson 1,2,3,etc. instead of by their leading character
-
 numSets = len(controller)
 
 def askToBoolean(name):
@@ -57,11 +55,11 @@ def beginTesting():
 
     # Print out the characters one by one
     i = 0
-    while i< len(combinedArray):
+    while i < len(combinedArray):
         input(combinedArray[i][0])
         input(combinedArray[i][1])
         i += 1
 
-print("Get ready to practice some Hiragana!!")
+print("Get ready to practice some Hiragana/Katakana!!")
 whichCharacters()
 beginTesting()
